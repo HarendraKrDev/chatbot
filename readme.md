@@ -6,6 +6,7 @@ This folder contains the main workshop application that participants will build 
 
 - **app.py** - The main application file (complete implementation)
 - **requirements.txt** - Python dependencies
+- **.streamlit/secrets.toml** - Add `OPENROUTER_API_KEY = "YOUR_OPENROUTER_API_KEY_HERE"` in this file
 - **instructor_script.md** - Step-by-step presentation script
 - **deployment_guide.md** - Hugging Face Spaces deployment instructions
 
@@ -43,3 +44,4 @@ Follow the instructions in `deployment_guide.md` to deploy to Hugging Face Space
 ✅ Production-ready deployment configuration
 
 This application serves as the foundation for the breakout session challenges where participants will add translation, personality selection, and export features.
+
